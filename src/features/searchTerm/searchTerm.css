@@ -1,0 +1,58 @@
+.searchBar {
+    text-align: center;
+    padding: 33px 36px 0 36px;
+    position: relative;
+}
+
+.searchTerm {
+    display: inline-block;
+    width: 100%;
+    text-indent: 8px;
+    font-size: 16px;
+    padding: 9px 25px 9px 40px;
+    border-radius: 16px;
+    border: solid 1px gray;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.clearButton {
+    position: absolute;
+    right: 42px;
+    top: 36px;
+    bottom: 3px;
+    border: 0;
+    background: none;
+    margin: 0;
+    padding: 0 10px;
+    border-radius: 100px;
+    z-index: 2;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.searchTerm::placeholder {
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+#search-icon {
+    opacity: 0.5;
+    position: absolute;
+    top: 42px;
+    left:53px;
+}
+
+.searchTerm:focus {
+    outline: none;
+}
+
+.searchBar span {
+    position: absolute;
+    right: 1em;
+    top: 0;
+    bottom: 0;
+    line-height: 40px;
+    text-align: center;
+}
